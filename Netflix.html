@@ -16,13 +16,12 @@
         <nav>
             <span><img width="53" src="Assets/images/logo.svg" alt=""></span>
             <div class="nav-btns">
-                <form action="" method="POST">
-                    <select name="language" id="language">
+                <form action="" class="bottom-language" method="POST">
+                    <select name="language" id="language-top" aria-label="Select language">
                         <option class="en">English</option>
                         <option class="en">Hindi</option>
                     </select>
-                </form>
-                <button class="btn btn-red-sm">Sign In</button>
+                <button type="button" class="btn btn-red-sm">Sign In</button>
             </div>
         </nav>
         <div class="box">
@@ -104,7 +103,7 @@
         </div>
         <div class="note">
             <h2>More reasons to join</h2>
-            <div class="reasons">
+            <ul class="reasons">
                 <li>
                     <h2>Enjoy on your TV</h2>
                     <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
@@ -112,21 +111,21 @@
                 </li>
                 <li>
                     <h2>Download your shows to watch offline</h2>
-                    <p style="margin-top: -104px;">Save your favourites easily and always have something to watch.</p>
-                    <img src="Assets\images\arrow.png" alt="" style="width: 77px;height: 78px;">
+                    <p class="download-description">Save your favourites easily and always have something to watch.</p>
+                    <img class="feature-icon feature-icon-arrow" src="Assets\images\arrow.png" alt="">
                 </li>
                 <li>
                     <h2>Watch everywhere</h2>
                     <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-                    <img src="Assets\images\mic.png" alt="" style="width: 84px;height: 81px;">
+                    <img src="Assets\images\mic.png" alt="" width="84" height="81">
                 </li>
                 <li>
                     <h2>Create profiles for kids</h2>
                     <p>Send kids on adventures with their favourite characters in a space made just for them — free with
                         your membership.</p>
-                    <img src="Assets\images\kid.png" alt="" style="width: 88px;height: 93px;">
+                    <img src="Assets\images\kid.png" alt="" width="88" height="93">
                 </li>
-            </div>
+            </ul>
         </div>
         <div class="faq">
             <h2>Frequently Asked Questions</h2>
@@ -199,7 +198,7 @@
                     <button type="submit" class="btn btn-red">Try 7 Days for ₹0 ></button>
                 </form>
             </div>
-            <p Style="color: rgba(255, 255, 255, 0.7); margin-top: 15px;">This offer is only valid for new members. This
+            <p class="offer-disclaimer">This offer is only valid for new members. This
                 offer is non-transferrable. You agree that Netflix will charge the membership fee at the end of the free
                 trial to your payment method and will automatically continue your membership until you cancel. Some
                 methods of payment may not be eligible to redeem this offer.</p>
@@ -229,8 +228,8 @@
                 <td><a href="#">Legal Notices</a></td>
                 <td><a href="#">Only on Netflix</a></td>
         </table>
-        <form action="" class="bottom-language" method="POST">
-            <select name="language" id="language" style="width: 140px;">
+        <form action=""  method="POST">
+                <select name="language" id="language-bottom" aria-label="Select language">
                 <option class="en">English</option>
                 <option class="en">Hindi</option>
             </select>
